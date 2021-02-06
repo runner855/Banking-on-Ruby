@@ -32,4 +32,6 @@ private
   end
 end
 
+checking_account = Account.new("John", 250)
+
   
