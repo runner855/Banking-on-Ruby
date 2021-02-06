@@ -33,5 +33,9 @@ private
 end
 
 checking_account = Account.new("John", 250)
+checking_account.withdraw(11, 500_000)
+checking_account.display_balance(1234)
+checking_account.withdraw(1234, 500_000)
+checking_account.display_balance(1234)
 
   
