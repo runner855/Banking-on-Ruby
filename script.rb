@@ -1,10 +1,13 @@
 class Account
-  attr_reader :name
-  attr_reader :balance
-
+  attr_reader :name, :balance
   def initialize(name, balance=100)
     @name = name
     @balance = balance
+  end
+
+  def display_balance(pin_number)
+    puts pin_number == pin ?
+    "Balance: $#{@balance}." : pin_error
   end
 
   private 
